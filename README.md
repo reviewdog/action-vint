@@ -33,10 +33,10 @@ jobs:
     name: runner / vint
     runs-on: ubuntu-latest
     steps:
-      - name: Check out code.
-        uses: actions/checkout@v1
+      - uses: actions/checkout@v1
       - name: vint
         uses: reviewdog/action-vint@v1
         with:
           github_token: ${{ secrets.github_token }}
+          reporter: github-pr-review # Change reporter.
 ```
