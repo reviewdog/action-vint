@@ -6,3 +6,5 @@ policies:
     enabled: true
   ProhibitImplicitScopeVariable:
     enabled: true
+  ProhibitNoAbortFunction:
+    enabled: true
