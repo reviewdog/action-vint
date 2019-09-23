@@ -21,6 +21,12 @@ code review experience.
 Optional. Report level for reviewdog [info,warning,error].
 It's same as `-level` flag of reviewdog.
 
+### `reporter`
+
+Reporter of reviewdog command [github-pr-check,github-pr-review].
+Default is github-pr-check.
+github-pr-review can use Markdown and add a link to rule page in reviewdog reports.
+
 ## Example usage
 
 ### [.github/workflows/reviewdog.yml](.github/workflows/reviewdog.yml)
