@@ -22,5 +22,5 @@ runs:
     - ${{ inputs.level }}
     - ${{ inputs.reporter }}
 branding:
-  icon: 'figma'
+  icon: 'chevron-down'
   color: 'green'
