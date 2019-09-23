@@ -1,4 +1,4 @@
 
 function s:test()
-  echo "Hello from reviewdog!"
+  let x = "Hello from reviewdog!"
 endfunction
