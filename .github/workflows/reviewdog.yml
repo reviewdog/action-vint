@@ -16,6 +16,7 @@ jobs:
         with:
           github_token: ${{ secrets.github_token }}
           reporter: github-check
+          level: warning
       - name: vint-pr-review
         uses: ./
         with:
