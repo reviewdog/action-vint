@@ -11,6 +11,11 @@ jobs:
         uses: ./
         with:
           github_token: ${{ secrets.github_token }}
+      - name: vint-check
+        uses: ./
+        with:
+          github_token: ${{ secrets.github_token }}
+          reporter: github-check
       - name: vint-pr-review
         uses: ./
         with:
