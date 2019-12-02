@@ -8,11 +8,11 @@ jobs:
       - name: Check out code.
         uses: actions/checkout@v1
       - name: vint
-        uses: reviewdog/action-vint@v1
+        uses: ./
         with:
           github_token: ${{ secrets.github_token }}
       - name: vint-pr-review
-        uses: reviewdog/action-vint@v1
+        uses: ./
         with:
           github_token: ${{ secrets.github_token }}
           reporter: github-pr-review
