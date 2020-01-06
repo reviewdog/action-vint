@@ -1,6 +1,6 @@
 FROM python:3.7-alpine
 
-RUN wget -O - -q https://raw.githubusercontent.com/reviewdog/reviewdog/master/install.sh| sh -s -- -b /usr/local/bin/ v0.9.14
+RUN wget -O - -q https://raw.githubusercontent.com/reviewdog/reviewdog/master/install.sh| sh -s -- -b /usr/local/bin/ v0.9.15
 RUN apk --update add git && \
     rm -rf /var/lib/apt/lists/* && \
     rm /var/cache/apk/*
