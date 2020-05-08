@@ -1,7 +1,10 @@
 # GitHub Action: Run vint with reviewdog
 
 [![Docker Image CI](https://github.com/reviewdog/action-vint/workflows/Docker%20Image%20CI/badge.svg)](https://github.com/reviewdog/action-vint/actions)
-[![Release](https://img.shields.io/github/release/reviewdog/action-vint.svg?maxAge=43200)](https://github.com/reviewdog/action-vint/releases)
+[![depup](https://github.com/reviewdog/action-vint/workflows/depup/badge.svg)](https://github.com/reviewdog/action-vint/actions?query=workflow%3Adepup)
+[![release](https://github.com/reviewdog/action-vint/workflows/release/badge.svg)](https://github.com/reviewdog/action-vint/actions?query=workflow%3Arelease)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/reviewdog/action-vint?logo=github&sort=semver)](https://github.com/reviewdog/action-vint/releases)
+[![action-bumpr supported](https://img.shields.io/badge/bumpr-supported-ff69b4?logo=github&link=https://github.com/haya14busa/action-bumpr)](https://github.com/haya14busa/action-bumpr)
 
 This action runs [vint](https://github.com/Kuniwak/vint) with
 [reviewdog](https://github.com/reviewdog/reviewdog) on pull requests to improve
