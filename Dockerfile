@@ -1,6 +1,6 @@
 FROM python:3.11-alpine
 
-ENV REVIEWDOG_VERSION=v0.14.1
+ENV REVIEWDOG_VERSION=v0.14.2
 
 RUN wget -O - -q https://raw.githubusercontent.com/reviewdog/reviewdog/master/install.sh| sh -s -- -b /usr/local/bin/ ${REVIEWDOG_VERSION}
 RUN apk --update add git && \
