@@ -38,7 +38,7 @@ jobs:
           if_false: ${{ steps.bumpr.outputs.next_version }}
 
       # Create release.
-      - uses: shogo82148/actions-create-release@4661dc54f7b4b564074e9fbf73884d960de569a3 # v1.7.8
+      - uses: shogo82148/actions-create-release@6a396031bc74c57403da1018fec74d24c6aa03cd # v1.9.0
         if: "${{ steps.tag.outputs.value != '' }}"
         with:
           tag_name: ${{ steps.tag.outputs.value }}
